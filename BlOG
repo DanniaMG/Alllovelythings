@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Lovely Things</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* Beige background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8c8dc; /* Pastel Pink header */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            border-bottom: 2px solid #f8c8dc;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .about, .blog {
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8c8dc;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All Lovely Things</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I'm Dannia Medel. Welcome to "All Lovely Things," where I share things I love and find interesting. I'm passionate about many things, from arts and crafts to technology and travel. Through this blog, I hope to connect with like-minded individuals and share my experiences and thoughts.</p>
+        </section>
+        <section id="blog" class="blog">
+            <h2 class="section-title">Blog</h2>
+            <article>
+                <h3>First Blog Post</h3>
+                <p>Welcome to my first blog post! Here I'll share my thoughts on various topics that interest me. Stay tuned for more updates!</p>
+            </article>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Dannia Medel. All rights reserved.
+    </footer>
+</body>
+</html>
